@@ -1,0 +1,44 @@
+{
+  "synthetic": true,
+  "warehouse_verified": true,
+  "primary": {
+    "control": {
+      "n": 5350,
+      "events": 369,
+      "rate": 0.06897196261682242
+    },
+    "treatment": {
+      "n": 5351,
+      "events": 473,
+      "rate": 0.08839469258082601
+    },
+    "absolute_lift": 0.019422729964003585,
+    "relative_lift": 0.28160326641577016,
+    "ci95": [
+      0.009226775113133434,
+      0.029647140441950465
+    ],
+    "p_value": 0.00019059707134316117,
+    "test": "Two-sided pooled proportions z-test",
+    "reject_equal_rates": true,
+    "estimated_incremental_activations": 103.93102803738319,
+    "incremental_activations_ci95": [
+      49.37247363037701,
+      158.64184850487695
+    ]
+  },
+  "mde": 0.014680149092017113,
+  "shown": 2915,
+  "credit": {
+    "first_touch": {
+      "email_delivery": 817,
+      "in_app_impression": 11,
+      "unattributed": 14
+    },
+    "last_touch": {
+      "in_app_impression": 266,
+      "email_delivery": 562,
+      "unattributed": 14
+    }
+  }
+}
